@@ -25,7 +25,7 @@ def compute_cumulative_return(returns: pd.DataFrame):
 
 def compute_var(returns: pd.DataFrame, level=5):
     # 1 day var 
-    var = returns.quantile(level / 100)
+    var = -returns.quantile(level / 100)
     return var
 
 
