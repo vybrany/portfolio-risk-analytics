@@ -81,7 +81,7 @@ def compute_portfolio_volatility(returns: pd.DataFrame, weights: pd.Series):
 
 def compute_portfolio_var(portfolio_returns, level=5):
     var_portefolio = -portfolio_returns.quantile(level/100) 
-    # var 10 jour 
+    # var 1 jour 
     return var_portefolio
 
 
