@@ -1,31 +1,31 @@
 # Portfolio Risk Analytics
 
-Projet Python d’analyse de portefeuille, de mesure du risque et de simulation Monte Carlo à partir de données financières de marché.
+Python project for portfolio analysis, risk measurement, and Monte Carlo simulation using financial market data.
 
-## Présentation
+## Overview
 
-Ce projet permet d’analyser la performance et le risque d’un portefeuille multi-actifs à partir de données historiques de marché. Il calcule plusieurs métriques financières et statistiques utilisées en gestion de portefeuille et en gestion des risques.
+This project analyzes the performance and risk of a multi-asset portfolio using historical market data. It computes several financial and statistical metrics commonly used in portfolio management and risk management.
 
-Le projet inclut également des simulations Monte Carlo afin d’estimer le risque du portefeuille et de visualiser la distribution des rendements simulés.
+The project also includes Monte Carlo simulations to estimate portfolio risk and visualize the distribution of simulated returns.
 
-## Fonctionnalités
+## Features
 
-- Téléchargement de données financières avec `yfinance`
-- Calcul des rendements journaliers et cumulés
-- Calcul de la volatilité annualisée
-- Calcul du ratio de Sharpe
-- Estimation de la Value-at-Risk (VaR)
-- Estimation de l’Expected Shortfall (ES)
-- Calcul du drawdown maximal
-- Construction de matrices de corrélation
-- Analyse de portefeuilles pondérés
-- Simulations Monte Carlo
-- Visualisation des performances et distributions de rendements
+* Financial data retrieval using `yfinance`
+* Daily and cumulative returns calculation
+* Annualized volatility calculation
+* Sharpe ratio calculation
+* Value-at-Risk (VaR) estimation
+* Expected Shortfall (ES) estimation
+* Maximum drawdown calculation
+* Correlation matrix construction
+* Weighted portfolio analysis
+* Monte Carlo simulations
+* Performance and return distribution visualization
 
-## Technologies utilisées
+## Technologies Used
 
-- Python
-- pandas
-- numpy
-- matplotlib
-- yfinance
+* Python
+* pandas
+* numpy
+* matplotlib
+* yfinance
